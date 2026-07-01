@@ -1,4 +1,4 @@
-# 🐍 Projetos Python — Gabriel Tiago
+# 🐍 Projetos Python — Gabriel Moura
 
 Repositório com projetos desenvolvidos em Python, cada um focado em um conjunto de conceitos fundamentais: análise de dados, orientação a objetos e desenvolvimento de jogos.
 
@@ -7,31 +7,22 @@ Repositório com projetos desenvolvidos em Python, cada um focado em um conjunto
 ## 📁 Projetos
 
 ### ⚽ Copa do Mundo 2026 — Análise de Dados
-> `pandas` • `matplotlib` • análise de dados • gráficos
+> `pandas` • `numpy` • `matplotlib` • `fpdf2`
 
-Análise estatística das 48 seleções da Copa do Mundo 2026 com geração de gráficos profissionais. Projeto sem API — dados reais processados diretamente do dataset oficial da FIFA.
+Análise estatística completa das 48 seleções da Copa do Mundo 2026. Gera 6 gráficos e um relatório em PDF automaticamente, sem nenhuma intervenção manual.
 
 **O que faz:**
-- Processa dataset com 48 seleções e 136 variáveis cada
-- Gera ranking das seleções que mais fizeram gols
-- Compara ataque x defesa das top 10 seleções visualmente
-- Exporta gráficos em PNG prontos para apresentação
+- Processa dataset com 48 seleções e 136 variáveis
+- Calcula média, mediana, moda e correlações com numpy
+- Gera 6 gráficos: ataque x defesa, cartões, eficiência, dispersão e correlações
+- Exporta relatório completo em PDF com capa, gráficos e textos explicativos
 
 **Como rodar:**
 ```bash
 cd Copa2026
-pip install pandas matplotlib
+pip install pandas numpy matplotlib fpdf2
 python copa.py
 ```
-
-**Resultado:**
-| Seleção | Gols |
-|---|---|
-| Germany | 7 |
-| Canada | 6 |
-| Sweden | 5 |
-| Switzerland | 5 |
-| Brazil | 4 |
 
 ---
 
@@ -84,6 +75,7 @@ python numbermatch.py
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat)
 ![Pygame](https://img.shields.io/badge/Pygame-darkgreen?style=flat)
 
@@ -91,6 +83,6 @@ python numbermatch.py
 
 ## 👨‍💻 Autor
 
-**Gabriel Moura** — Python Developer
+**Gabriel Tiago** — Python Developer
 
 Motoboy em transição de carreira para programação. Estudando Python com foco em análise de dados, automação e desenvolvimento de jogos.
